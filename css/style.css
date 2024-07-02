@@ -1,0 +1,29 @@
+body{
+    font-family:cursive;
+}
+h1{
+    text-align:center;
+    color:rgb(16, 14, 14);
+    margin:30px 0 50px;
+    
+}
+.gallery
+{
+    margin:10px 50px;
+
+}
+ img
+{
+    width:350px;
+height: 250px;   
+ padding:5px;
+ transition: 1s;
+ 
+}
+img:hover
+{
+    filter:blur(1px);
+    transform:scale(1.1);
+
+}
+
